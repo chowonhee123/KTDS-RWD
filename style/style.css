@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.appHeader{
+height: 100px;
+}
+
+.appNavigation{
+    background-color: yellow;
+height: 100px;
+}
+
+.appMain{
+    background-color: rgb(234, 234, 255);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.book, .news, .board, .favorite, .twitter{
+    width: 100%;
+}
+
+
+.appFooter{
+    background-color: green;
+height: 100px;
+}
+@media(min-width: 768px){
+  .bookWrapper{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+.book{
+    background-color: skyblue;
+    width: 30%;
+
+}
+
+.boardWrapper{
+    width: 70%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.board{
+    background-color: tomato;
+    order: 1;
+}
+
+.favoriteWrapper{
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+}
+.twitter{
+    order: -1;
+}
+}
