@@ -8,6 +8,12 @@
     padding: 0;
     border: 0;
 }
+
+/* 컨테이너 */
+.container{
+    min-width: 16.25rem;
+}
+
 /* 헤더 */
 .appHeader{
 
@@ -46,7 +52,32 @@ clip: rect(0, 0, 0, 0);
 white-space: nowrap;
 border-width: 0;
 }
-/* 검색 */
+/* 검색 폼 */
 .searchForm{
     width: 100%;
+    
+}
+
+.searchForm__group{
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.formInput{
+    background-color: blueviolet;
+    flex-grow: 1;
+
+/* 
+    &__input{
+        width: 100%;
+    } */
+}
+
+.formInput__input{
+    width: 100%;
+        height: 24px;
+}
+
+.searchForm.button{
+    white-space: nowrap;
 }
