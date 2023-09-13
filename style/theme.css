@@ -5,7 +5,7 @@
   --dark-brown: #38302e;
   --light-brown: #988574;
   --light-yellow: #ffc;
-  --yellow-opacity: hsla(60, 50%, 50%, 0.85);
+  --white-opacity: hsla(0, 0%, 87%, 0.85);
 
   --green: #abd375;
   --yellow: #e8ca58;
@@ -16,7 +16,8 @@
   --primary-color: var(--dark-brown);
   --secondary-color: var(--light-brown);
   --accent-color: var(--light-yellow);
-  --accent-opacity-color: var(--yellow-opacity);
+  --accent-opacity-color: var(--white-opacity);
+  --border-color: var(--silver)
 
   --accent-book: var(--green);
   --accent-news: var(--yellow);
